@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Yanone+Kaffeesatz&display=fallback');
+
+html{
+  font-size: 62.5%
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+ h1, h2,{
+   font-family:'Yanone Kaffeesatz', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   font-weight: 550;
+ }
+
+ h3, h4{
+   font-family: 'Yanone Kaffeesatz', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ p, a, li{
+   font-family: 'Oxygen', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+ h1{
+   font-size: 4rem;
+ }
+
+ h2{
+   font-size: 3rem;
+ }
+
+ h3{
+   font-size: 2.5rem;
+ }
+
+ h4{
+   font-size: 2rem;
+ }
+
+ p, a, li{
+   font-size: 1.6rem;
+ }
+
+
+ 
+  
