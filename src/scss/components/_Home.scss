@@ -1,0 +1,78 @@
+
+
+.appbar{
+    background: rgba(0, 0, 0, 0.486);
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+.mui-typography{
+    font-family: 'Yanone Kaffeesatz';
+    color: lightgreen;
+}
+.MuiButton-root{
+    font-size: 2rem;
+}
+.home-button{
+    font-size:2rem;
+}
+
+.layer{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home-banner-container{
+    width: 100%;
+    height: 600px;
+    background: url("./images/vegandish.jpg") no-repeat center; 
+    position: relative;
+    h1{
+        margin-top: 150px;
+        font-size: 8rem;
+        color:lightgreen;
+        font-weight: 700px;
+        text-shadow: 0.75px 0.75px 2px rgba(0, 0, 0, 0.555) 
+    }
+    .home-banner-buttons{
+        margin-top: 150px;
+        a{
+            font-size: 2rem;
+            text-decoration: none;
+            border: 1px solid lightgreen;
+            color: lightgreen;
+            background:black;
+            padding: 10px 40px;
+            border-radius: 25px; 
+            cursor: pointer;
+        }
+    }
+}
+.home-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    .home-card{
+        width:31%;
+        height: 300px;
+        display: flex;
+        background: rgba(140, 177, 140, 0.616);
+        .home-img-container{
+            width:50%;
+            img{
+                width: 150px;
+                //margin-top: 25px;
+            }
+        }
+    }
+}
